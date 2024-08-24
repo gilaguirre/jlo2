@@ -1,0 +1,23 @@
+.services-page{
+    background-color: var(--gold);
+    color: white;
+}
+
+.services-page .company-service-item{
+    background-color: white;
+    color: var(--gold);
+    height: 350px;
+    max-height: 100%;
+}
+
+.services-page p{
+    font-size: 20px;
+}
+
+.services-page p{
+    font-size: 20px;
+}
+
+.services-page .carousel-item{
+    
+}

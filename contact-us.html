@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To JLO!</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+
+    <link rel = "stylesheet" href = "css/home.css">
+    <link rel = "stylesheet" href = "css/responsive.css">
+
+    <script src = "home.js" defer></script>
+</head>
+<body>
+    <div class = "header">
+        <i class="fa fas fa-bars" id = "hiddenMenu" data-bs-toggle="offcanvas" data-bs-target="#mainNavMenu"></i>
+        <div class="logo">
+            <a href = "home.html">
+                <img src = "img/logo.png">
+            </a>
+        </div>
+
+        <nav class = "offcanvas offcanvas-start main-nav" id = "mainNavMenu" style = "overflow-y: visible;">
+            <ul class="offcanvas-body" style = "overflow-y: visible;">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" id = "btnClose"></button>
+                  
+                <li class = "nav-item dropdown about-us-menu" style = "display: inline-block;">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href = "#">
+                        ABOUT US
+                    </a>
+                    <ul class = "dropdown-menu">
+                        <li><a href = "about-us.html">Our Company</a></li>
+                        <li><a href = "about-us.html" id = "">Our Employees</a></li>
+                        <li><a href = "about-us.html">Our Leaders</a></li>
+                    </ul>
+                </li>
+                <li><a href = "services.html">SERVICES</a></li>
+                <li><a href = "#">OUR TEAM</a></li>
+                <li><a href = "contact-us.html">CONTACT US</a></li>
+                <!--<li><a href = "#"><i class="fa fas fa-search"></i></a></li>-->
+                
+            </ul>
+        </nav>
+
+        
+    </div>
+    <div class = "contact-us-page">
+        <h2>Let Us Know How We Can Help!</h2>
+        <div class="container mt-3 contact-us-page-form">
+            
+
+            <form action="/action_page.php">
+
+                <div class="mb-3 mt-3">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="First and last name*" name="name" required>
+                </div>
+
+                <div class="mb-3 mt-3">
+                    <label for="name">Phone Number:</label>
+                    <input type="tel" class="form-control" id="phoneNumber" placeholder="Phone number*" name="phoneNumber" required>
+                </div>
+
+              <div class="mb-3 mt-3">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Email address*" name="email" required>
+              </div>
+
+              <div class="mb-3 mt-3">
+                <label for="message">Your Message:</label>
+                <textarea class="form-control" id="message" placeholder="Message*" rows = "3" name="message" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="background-color: var(--blue); border: 1px solid var(--blue);">Submit</button>
+            </form>
+          </div>
+    </div>
+
+    <div class="footer">
+        <div class = "footer-flex">
+            <div class = "company-id">
+                <img src = "img/logo.png">
+                <p class = "description">
+                    Etiam venenatis ligula sed arcu placerat, in porttitor enim facilisis. Sed iaculis mi at condimentum iaculis. Proin a auctor arcu. Nam at mattis leo. Nulla ex neque, lobortis vel laoreet at, pretium non elit. Suspendisse non aliquet quam. 
+                </p>
+            </div>
+            <div class = "services-about-us">
+                <div class="services">
+                    <ul>
+                        <li class = "services-headline"><strong>SERVICES</strong></li>
+                        <li>Business Process Outsourcing (BPO)</li>
+                        <li>Back Office Services (BOS)</li>
+                        <li>Chat and Email Support</li>
+                        <li>Customer Service</li>
+                        <li>Data Entry</li>
+                        
+                    </ul>
+                </div>
+                <div class="about-us">
+                    <ul>
+                        <li class = "services-headline"><strong>ABOUT US</strong></li>
+                        <li>Our Employees</li>
+                        <li>The Market</li>
+                        <li>Our Integrity</li>
+                        <li>Partnership</li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "contact-us">
+                <div class = "contact-us-item">
+                    <i class="fa fas fa-globe"></i>
+                    <div>
+                        23D Latitude Corporate Center, Mindanao Avenue,
+                        Cebu Business Park, Luz, Cebu City. 6000 Philippines
+                    </div>
+                </div>
+                <div class = "contact-us-item">
+                    <i class="fa fas fa-phone"></i>
+                    <div>
+                        +63 32 3182341 / +63 9178917088
+                    </div>
+                </div>
+                <div class = "contact-us-item">
+                    <i class="fa fas fa-home"></i>
+                    <div>
+                        admin@jlobusiness.com
+                    </div>
+                    </div>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright © 2022 JLO GLOBAL BPO INC. 
+        </div>
+        <!--Let's edit it now-->
+    </div>
+</body>
+</html>

